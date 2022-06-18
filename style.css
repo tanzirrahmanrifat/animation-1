@@ -1,0 +1,560 @@
+body{padding:0;margin:0
+}
+header{
+    display: flex;
+}
+/* .section {
+    width: 100%;
+    margin: 0 auto;
+    height: 50vh;
+    position: relative;
+    padding: 0;
+}
+.section1{
+  width:100%;
+  margin:0 auto;
+  height:50vh;
+  position:relative;
+  padding:0
+}
+.section2{
+  width:100%;
+  margin:0 auto;
+  height:50vh;
+  position:relative;
+  padding:0
+}
+.section3{
+  width:100%;
+  margin:0 auto;
+  height:50vh;
+  position:relative;
+  padding:0
+}
+.section4{
+  width:100%;
+  margin:0 auto;
+  height:50vh;
+  position:relative;
+  padding:0
+}
+
+.hscroll-line {
+    top: 0;
+    bottom: 0;
+    height: 1vh;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    tranform-origin: 50% 50%;
+    margin-left: 9px;
+}
+.hscroll-line1 {
+    top: 0;
+    bottom: 0;
+    height: 1vh;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    tranform-origin: 50% 50%;
+    margin-left: 17px;
+}
+.hscroll-line2 {
+    top: 0;
+    bottom: 0;
+    height: 1vh;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    tranform-origin: 50% 50%;
+    margin-left: 26px;
+}
+.hscroll-line3 {
+    top: 0;
+    bottom: 0;
+    height: 1vh;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    tranform-origin: 50% 50%;
+    margin-left: 35px;
+}
+.hscroll-line4,.hscroll-line5,.hscroll-line6,.hscroll-line7,.hscroll-line8,.hscroll-line9 {
+    top: 0;
+    bottom: 0;
+    height: 1vh;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    tranform-origin: 50% 50%;
+}
+span.hscroll-line5 {margin-left: -10px;}
+
+span.hscroll-line6 {margin-left: -19px;}
+
+span.hscroll-line7 {margin-left: -28px;}
+
+span.hscroll-line8 {margin-left: -37px;}
+
+span.hscroll-line9 {margin-left: -46px;}
+
+.hscroll-line::before,
+.hscroll-line::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: ""
+}
+.hscroll-line1::before,
+.hscroll-line1::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: ""
+}
+.hscroll-line2::before,
+.hscroll-line2::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: ""
+}
+.hscroll-line3::before,
+.hscroll-line3::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: ""
+}
+.hscroll-line4::before,.hscroll-line5::before,.hscroll-line6::before,.hscroll-line7::before,.hscroll-line8::before,.hscroll-line9::before,
+.hscroll-line4::after,.hscroll-line5::after,.hscroll-line6::after,.hscroll-line7::after,.hscroll-line8::after,.hscroll-line9::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: ""
+}
+
+
+
+.hscroll-line::after {
+	background: #FFD92A;
+animation: move 21s infinite;
+}
+.hscroll-line1::after {
+	background: #FFD92A;
+	animation: move1 23s infinite
+}
+.hscroll-line2::after {
+	background: #FFD92A;
+	animation: move2 25s infinite
+}
+.hscroll-line3::after {
+	background: #FFD92A;
+	animation: move3 11s infinite
+}
+.hscroll-line4::after {
+	background: #FFD92A;
+	animation: move4 13s infinite
+}
+.hscroll-line5::after {
+	background: #FFD92A;
+	animation: move5 17s infinite
+}
+.hscroll-line6::after {
+	background: #FFD92A;
+	animation: move6 19s infinite
+}
+.hscroll-line7::after {
+	background: #FFD92A;
+	animation: move7 11s infinite
+}
+.hscroll-line8::after {
+	background: #FFD92A;
+	animation: move8 15s infinite
+}
+.hscroll-line9::after {
+	background: #FFD92A;
+	animation: move9 7s infinite
+}
+
+@keyframes move {
+	0% {
+		transform: translate3d(-500%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move1 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move2 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move3 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move4 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move5 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move6 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move7 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move8 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+@keyframes move9 {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	20% {
+		transform: translate3d(100%, 0, 0)
+	}
+	40% {
+		transform: translate3d(100%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+.div{
+	width: 4px;
+	height: 0vh;
+	background-color: #FFD92A;
+	animation: rifat 4s 2s;
+}
+
+@keyframes rifat {
+	0% {
+		transform: translate3d(-500%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+} */
+
+.geeks {
+	width: 4px;
+	height: 50vh;
+	background: rgb(116, 114, 114);
+	position: absolute;
+	top: 0;
+	left: 9px;
+	transform: translate(-50%, -50%);
+}
+.geeks1 {
+	width: 4px;
+	height: 50vh;
+	background: rgb(116, 114, 114);
+	position: absolute;
+	top: 0;
+	left: 14px;
+	transform: translate(-50%, -50%);
+}
+.geeks2 {
+	width: 4px;
+	height: 50vh;
+	background: rgb(116, 114, 114);
+	position: absolute;
+	top: 0%;
+	left: 19px;
+	transform: translate(-50%, -50%);
+}
+.geeks3 {
+	width: 4px;
+	height: 50vh;
+	background: rgb(116, 114, 114);
+	position: absolute;
+	top: 0%;
+	left: 24px;
+	transform: translate(-50%, -50%);
+}
+.geeks4 {
+	width: 4px;
+	height: 50vh;
+	background: rgb(116, 114, 114);
+	position: absolute;
+	top: 0%;
+	left: 29px;
+	transform: translate(-50%, -50%);
+}
+.geeks5 {
+	width: 4px;
+	height: 50vh;
+	background: rgb(116, 114, 114);
+	position: absolute;
+	top: 0%;
+	left: 34px;
+	transform: translate(-50%, -50%);
+}
+
+.geeks::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	animation: animate 5s linear infinite;
+}
+.geeks1::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	animation: animate1 7s linear infinite;
+}
+.geeks2::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	animation: animate2 3s linear infinite;
+}
+.geeks3::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	animation: animate3 9s linear infinite;
+}
+.geeks4::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	animation: animate4 11s linear infinite;
+}
+.geeks5::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	animation: animate5 10s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		top: 0;
+	}
+
+	100% {
+	top: 100%;
+	}
+
+
+}
+
+@keyframes animate1 {
+	0% {
+		top: 0;
+	}
+
+	100% {
+	top: 100%;
+	}
+
+
+}
+@keyframes animate2 {
+	0% {
+		top: 0;
+	}
+
+	100% {
+	top: 100%;
+	}
+
+
+}
+@keyframes animate3 {
+	0% {
+		top: 0;
+	}
+
+	100% {
+	top: 100%;
+	}
+
+
+}
+@keyframes animate4 {
+	0% {
+		top: 0;
+	}
+
+	100% {
+	top: 100%;
+	}
+
+
+}
+@keyframes animate5 {
+	0% {
+		top: 0;
+	}
+
+	100% {
+	top: 100%;
+	}
+
+
+}
