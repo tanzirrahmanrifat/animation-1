@@ -1,4 +1,4 @@
-body{padding:0;margin:0
+body{padding:0;margin:0;background-color: rebeccapurple;
 }
 header{
     display: flex;
@@ -378,7 +378,7 @@ animation: move 21s infinite;
 .geeks {
 	width: 4px;
 	height: 50vh;
-	background: rgb(116, 114, 114);
+	background: #fff;
 	position: absolute;
 	top: 0;
 	left: 9px;
@@ -387,7 +387,7 @@ animation: move 21s infinite;
 .geeks1 {
 	width: 4px;
 	height: 50vh;
-	background: rgb(116, 114, 114);
+	background: #fff;
 	position: absolute;
 	top: 0;
 	left: 14px;
@@ -396,7 +396,7 @@ animation: move 21s infinite;
 .geeks2 {
 	width: 4px;
 	height: 50vh;
-	background: rgb(116, 114, 114);
+	background: #fff;
 	position: absolute;
 	top: 0%;
 	left: 19px;
@@ -405,7 +405,7 @@ animation: move 21s infinite;
 .geeks3 {
 	width: 4px;
 	height: 50vh;
-	background: rgb(116, 114, 114);
+	background: #fff;
 	position: absolute;
 	top: 0%;
 	left: 24px;
@@ -414,7 +414,7 @@ animation: move 21s infinite;
 .geeks4 {
 	width: 4px;
 	height: 50vh;
-	background: rgb(116, 114, 114);
+	background: #fff;
 	position: absolute;
 	top: 0%;
 	left: 29px;
@@ -423,7 +423,7 @@ animation: move 21s infinite;
 .geeks5 {
 	width: 4px;
 	height: 50vh;
-	background: rgb(116, 114, 114);
+	background: #fff;
 	position: absolute;
 	top: 0%;
 	left: 34px;
